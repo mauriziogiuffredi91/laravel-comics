@@ -20,16 +20,19 @@
 
             <div class="container">
 
-                <a href="/">logo</a>
-
-                <a href="">Comics</a>
-
-                <a href="">News</a>
-
-                <h2>Benvenuto {{$user}}</h2>
+               
+                <a class="special-a" href="/">logo</a>
+                <a class="special-a" href="">Comics</a>
+                <a class="special-a" href="">News</a>
+                    
             </div>
 
         </header>
+
+                
+                
+
+
 
 
         {{-- js --}}
@@ -37,3 +40,8 @@
         <script src="{{asset('js/app.js')}}"></script>
     </body>
 </html>
+                
+
+                
+
+                
