@@ -4,5 +4,15 @@ header{
     color: black;
 }
 
+header .container{
+    display: flex;
+    align-items: center;
+}
 
+a{
+    margin-right: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+    
 

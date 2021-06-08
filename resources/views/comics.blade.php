@@ -16,19 +16,18 @@
         
     </head>
     <body>
-        <header>
+        {{-- main header --}}
+        @include('partials.header')
 
-            <div class="container">
+        <main>
+            <section>
 
-               
-                <a class="special-a" href="/">logo</a>
-                <a class="special-a" href="">Comics</a>
-                <a class="special-a" href="">News</a>
-                    
-            </div>
 
-        </header>
+            </section>
+        </main>
 
+        {{-- Mian footer --}}
+        @include('partials.footer')
                 
                 
 
