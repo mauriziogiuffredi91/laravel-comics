@@ -2,7 +2,6 @@
 
 Main styles
 **********************************/
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -25,7 +24,7 @@ p {
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1560px;
   margin: 0 auto;
   padding: 0 1rem;
 }
@@ -58,13 +57,13 @@ header a {
   text-transform: uppercase;
   color: #424345;
 }
-
 header a.active {
   color: dodgerblue;
 }
 
 header a img {
   width: 90px;
+  margin-left: 60px;
 }
 
 main .container {
@@ -74,6 +73,52 @@ main .container {
 .boxes {
   display: flex;
   flex-wrap: wrap;
+}
+
+.card {
+  margin: 25px;
+  margin-bottom: 20px 0;
+}
+
+.box-img img {
+  height: 184px;
+  width: 184px;
+  cursor: pointer;
+}
+
+.card .title-comics {
+  color: floralwhite;
+  text-transform: uppercase;
+  width: 184px;
+  padding: 10px 0;
+  font-weight: 400;
+  text-align: center;
+}
+
+.card .price {
+  text-align: center;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+button {
+  background-color: dodgerblue;
+  width: 165px;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+button a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: 700;
 }
 
 .blue-sec {
@@ -101,7 +146,6 @@ footer .button-gray {
   margin-right: 20px;
   padding: 10px;
 }
-
 footer .button-gray:hover {
   background-color: dodgerblue;
 }
@@ -125,4 +169,3 @@ footer .footer-right a {
   font-weight: 700;
   font-size: 20px;
 }
-

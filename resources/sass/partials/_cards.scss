@@ -2,3 +2,57 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+
+.card{
+    margin: 25px;
+    margin-bottom: 20px 0;
+}
+
+.box-img img{
+    height: 184px;
+    width: 184px;
+    cursor: pointer;
+    
+    
+}
+
+.card .title-comics{
+    color: floralwhite;
+    text-transform: uppercase;
+    width: 184px;
+    padding: 10px 0;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+.card .price{
+    text-align: center;
+}
+
+.bottom-section{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+button{
+    background-color: dodgerblue;
+    width: 165px;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    
+}
+
+button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+
+
