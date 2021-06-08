@@ -63,7 +63,7 @@ header a.active {
   color: dodgerblue;
 }
 
-a img {
+header a img {
   width: 90px;
 }
 
@@ -77,39 +77,39 @@ footer {
   padding: 40px;
 }
 
-.container {
+footer .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-a img {
+footer a img {
   width: 35px;
 }
 
-.button-gray {
+footer .button-gray {
   border: 2px solid dodgerblue;
   margin-right: 20px;
   padding: 10px;
 }
 
-.button-gray:hover {
+footer .button-gray:hover {
   background-color: dodgerblue;
 }
 
-.button-gray a {
+footer .button-gray a {
   color: whitesmoke;
   text-transform: uppercase;
   font-size: 20px;
   text-decoration: none;
 }
 
-.footer-right {
+footer .footer-right {
   display: flex;
   align-items: center;
 }
 
-.footer-right a {
+footer .footer-right a {
   color: dodgerblue;
   margin-right: 20px;
   text-transform: uppercase;

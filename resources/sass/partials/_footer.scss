@@ -2,18 +2,18 @@ footer{
     background-color: $back-col-foot;
     padding: 40px;
 }
-.container{
+footer .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-a img{
+footer a img{
     width: 35px;
     
 }
 
 
-.button-gray{
+footer .button-gray{
     border: 2px solid $button-col;
     margin-right: 20px;
     padding: 10px;
@@ -24,7 +24,7 @@ a img{
 }
 
 
-.button-gray a{
+footer .button-gray a{
     color: whitesmoke; 
     text-transform: uppercase;
     font-size: 20px;
@@ -32,7 +32,7 @@ a img{
 }
 
 
-.footer-right{
+footer .footer-right{
     display: flex;
     align-items: center;
     
@@ -40,7 +40,7 @@ a img{
     
     
 
-.footer-right a{
+footer .footer-right a{
     color: $button-col;
     margin-right: 20px;
     text-transform: uppercase;

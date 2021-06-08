@@ -1,44 +1,15 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.main')
 
-        <title>Laravel</title>
+@section('content')
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<section class="container">
 
-        {{-- commento a sintassi blade, non visibile devtols --}}
-        {{-- Main Styles --}}
-        <link rel="stylesheet" href="{{asset('css/app.css')}}">
+    <h1>example</h1>
+
+</section>
+@endsection
+    
         
-    </head>
-    <body>
-        {{-- main header --}}
-        @include('partials.header')
-
-        <main>
-            <section>
-
-
-            </section>
-        </main>
-
-        {{-- Mian footer --}}
-        @include('partials.footer')
-                
-                
-
-
-
-
-        {{-- js --}}
-
-        <script src="{{asset('js/app.js')}}"></script>
-    </body>
-</html>
                 
 
                 
