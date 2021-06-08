@@ -3,9 +3,9 @@
     <div class="container ">
 
        
-        <a class="special-a" href="/">
+        <div >
             <img src="{{asset('img/dc-logo.png')}}" alt="logo dc">
-        </a>
+        </div>
 
         <nav>
 

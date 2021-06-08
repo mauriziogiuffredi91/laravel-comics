@@ -43,7 +43,6 @@ li {
 
 header {
   background-color: #ffffff;
-  padding: 20px;
 }
 
 header .container {
@@ -52,18 +51,23 @@ header .container {
 }
 
 header a {
+  display: inline-block;
   margin-right: 30px;
   font-size: 20px;
   text-transform: uppercase;
   color: #424345;
+  transition: color 0.2s;
+  line-height: 104px;
 }
-header a.active {
+header a:hover, header a.active {
   color: dodgerblue;
+  border-bottom: 8px solid dodgerblue;
 }
 
-header a img {
+header img {
   width: 90px;
   margin-left: 60px;
+  margin-right: 30px;
 }
 
 main .container {
