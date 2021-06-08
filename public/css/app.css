@@ -24,3 +24,18 @@ p {
   margin-bottom: 1.5rem;
 }
 
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
