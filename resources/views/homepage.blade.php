@@ -25,6 +25,8 @@
                 <a href="">Comics</a>
 
                 <a href="">News</a>
+
+                <h2>Benvenuto {{$user}}</h2>
             </div>
 
         </header>
