@@ -1,0 +1,49 @@
+footer{
+    background-color: $back-col-foot;
+    padding: 40px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a img{
+    width: 35px;
+    
+}
+
+
+.button-gray{
+    border: 2px solid $button-col;
+    margin-right: 20px;
+    padding: 10px;
+    
+    &:hover{
+        background-color: $button-col;
+    }
+}
+
+
+.button-gray a{
+    color: whitesmoke; 
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.footer-right{
+    display: flex;
+    align-items: center;
+    
+}
+    
+    
+
+.footer-right a{
+    color: $button-col;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+}

@@ -40,13 +40,11 @@ li {
 
 .special-a {
   text-decoration: none;
-  color: black;
 }
 
 header {
   background-color: #ffffff;
   padding: 20px;
-  color: black;
 }
 
 header .container {
@@ -54,9 +52,68 @@ header .container {
   align-items: center;
 }
 
-a {
+header a {
   margin-right: 30px;
   font-size: 20px;
   text-transform: uppercase;
+  color: #424345;
+}
+
+header a.active {
+  color: dodgerblue;
+}
+
+a img {
+  width: 90px;
+}
+
+section {
+  background-color: dodgerblue;
+  height: 20px;
+}
+
+footer {
+  background-color: #303030;
+  padding: 40px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a img {
+  width: 35px;
+}
+
+.button-gray {
+  border: 2px solid dodgerblue;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.button-gray:hover {
+  background-color: dodgerblue;
+}
+
+.button-gray a {
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+}
+
+.footer-right a {
+  color: dodgerblue;
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
 }
 

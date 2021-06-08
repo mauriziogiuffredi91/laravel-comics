@@ -1,7 +1,7 @@
 header{
     background-color: $text-col;
     padding: 20px;
-    color: black;
+    
 }
 
 header .container{
@@ -9,10 +9,18 @@ header .container{
     align-items: center;
 }
 
-a{
+header a{
     margin-right: 30px;
     font-size: 20px;
     text-transform: uppercase;
+    color: $nav-col;
+    &.active{
+        color: $button-col;
+    }
+}
+
+a img{
+    width: 90px;
 }
     
 
