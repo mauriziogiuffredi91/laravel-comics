@@ -21,7 +21,7 @@ Route::get('/', function () {
 
 //news
 Route::get('/news', function() {
-    return 'Pagina news';
+    return view('news');
 })->name('news');
 
 

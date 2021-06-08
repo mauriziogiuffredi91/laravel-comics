@@ -24,6 +24,7 @@
         </main>
 
         {{-- Mian footer --}}
+        @include('partials.sectionblue')
         @include('partials.footer')
                 
                 
