@@ -81,7 +81,6 @@ main .container {
 
 .card {
   margin: 25px;
-  margin-bottom: 20px 0;
 }
 
 .box-img img {
@@ -123,6 +122,29 @@ button a {
   color: whitesmoke;
   font-size: 15px;
   font-weight: 700;
+}
+
+.news-back {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/3d/DC_Comics_logo.svg");
+  background-size: 195px;
+  position: relative;
+  background-repeat: repeat;
+}
+
+.box-text {
+  background: #0000008c;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.box-text .title-news {
+  width: 595px;
+  margin: 10px;
+  color: #ac9f9f;
+  cursor: pointer;
+}
+.box-text .title-news:hover {
+  color: dodgerblue;
 }
 
 .blue-sec {

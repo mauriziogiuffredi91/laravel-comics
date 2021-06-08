@@ -27,7 +27,9 @@ Route::get('/', function () {
 
 //news
 Route::get('/news', function() {
-    return view('news');
+    $comics = config('comics');
+
+    return view('news', ['cards' => $comics]);
 })->name('news');
 
 
