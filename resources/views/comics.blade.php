@@ -4,7 +4,15 @@
 
 <section class="container">
 
-    <h1>example</h1>
+    <div class="boxes">
+        @foreach ($cards as $card )
+            <div class="card">
+                <img src="{{$card['src']}}" alt="">
+                <h4 class="title-comics">{{$card['title']}}</h4>
+            </div>
+        @endforeach
+
+    </div>
 
 </section>
 @endsection
