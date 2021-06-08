@@ -67,6 +67,15 @@ header a img {
   width: 90px;
 }
 
+main .container {
+  padding: 50px;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .blue-sec {
   background-color: dodgerblue;
   height: 20px;

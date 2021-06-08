@@ -16,7 +16,13 @@ use Illuminate\Support\Facades\Route;
 
 // Comics
 Route::get('/', function () {
-    return view('comics' );
+
+    //metodo config di chiamata prodotti
+
+    $comics = config('comics');
+
+    //dump($comics);
+    return view('comics', ['cards' => $comics] );
 })->name('comics');
 
 //news
